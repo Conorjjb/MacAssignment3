@@ -1,6 +1,6 @@
 //
 //  SeasonsSceneBase.swift
-//  TheSeasons
+//  
 //
 //  Created by Erik.Kerber on 3/18/15.
 //  Copyright (c) 2015 Raywenderlich. All rights reserved.
@@ -9,7 +9,7 @@
 import SpriteKit
 import AVFoundation
 
-class SeasonsSceneBase: SKScene {
+class SceneBase: SKScene {
   private var backgroundMusicPlayer: AVAudioPlayer?
   private var btnSound = SKSpriteNode(imageNamed: "button_sound_on")
   private var soundOff: Bool
